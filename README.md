@@ -36,3 +36,14 @@ This project uses the Packet Wash implementation developed by Stuart Clayman.
 
     Repository:
     🔗 https://github.com/stuartclayman/h264_over_bpp/
+
+If you need to downscale the video for any reason, you can may want to use `./DownConvertStatic` provided in JSVM, but this is only one way of doing it.
+
+    ./DownConvertStatic [width] [height] [location]/[file_original].yuv [width] [height] [location]/[file_downsize].yuv
+
+If you want to lower the framerate which might be needed, you can use ffmpeg as follows:
+
+    ffmpeg -s [width]x[height] -pix_fmt yuv420p -framerate 60 -i [location]/[file_high_fps].yuv -vf "select='not(mod(n\,2))'" -fps_mode passthrough -f rawvideo [location]/[file_low_fps].yuv
+
+
+    

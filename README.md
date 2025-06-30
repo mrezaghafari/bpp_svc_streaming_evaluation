@@ -1,17 +1,17 @@
-# Evaluation of Big Packet Protocol Packet Wash for Game Streaming
+# 🎮 Evaluation of Big Packet Protocol Packet Wash for Game Streaming
 
 This repository contains resources to evaluate the Packet Wash technique for scalable video streaming, especially in gaming scenarios.
 Requirements
 
 To use this repository, please ensure the following dependencies are installed:
-1. JSVM (Joint Scalable Video Model)
+### 1. 🧩 JSVM (H264 Reference Software)
 
 Scalable H.264 reference software provided by Fraunhofer HHI.
 
     Download version 9_19_15 from the official JVET Git repository:
     🔗 https://vcgit.hhi.fraunhofer.de/jvet/jsvm
 
-2. FFmpeg
+### 2. 🎥 FFmpeg
 
 FFmpeg is required for video processing and visual quality assessments.
 
@@ -30,12 +30,14 @@ Alternatively, you can use the standalone VMAF tool from Netflix:
 
     🔗 https://github.com/Netflix/vmaf
 
-3. Packet Wash Implementation
+### 3. 🧪 Packet Wash Implementation
 
 This project uses the Packet Wash implementation developed by Stuart Clayman.
 
     Repository:
     🔗 https://github.com/stuartclayman/h264_over_bpp/
+
+## 🔧 Additional Utilities
 
 If you need to downscale the video for any reason, you can may want to use `./DownConvertStatic` provided in JSVM, but this is only one way of doing it.
 

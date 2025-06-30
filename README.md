@@ -1,4 +1,4 @@
-# Evaluation-of-Packet-Wash-for-Game-Streaming
+# Evaluation of Big Packet Protocol Packet Wash for Game Streaming
 
 This repository contains resources to evaluate the Packet Wash technique for scalable video streaming, especially in gaming scenarios.
 Requirements

@@ -45,5 +45,9 @@ If you want to lower the framerate which might be needed, you can use ffmpeg as 
 
     ffmpeg -s [width]x[height] -pix_fmt yuv420p -framerate 60 -i [location]/[file_high_fps].yuv -vf "select='not(mod(n\,2))'" -fps_mode passthrough -f rawvideo [location]/[file_low_fps].yuv
 
+## Folder Overview
+
+- 📁 [`confs`](./confs): Contains configuration files used for Scalable Video Coding (SVC).
+- 📁 [`results`](./results): Includes the results before and after applying the Packet Wash technique.
 
     

@@ -55,11 +55,9 @@ If you want to lower the framerate which might be needed, you can use ffmpeg as 
 - 📁 [`results`](./results): Includes the results before and after applying the Packet Wash technique.
 
 ## 🙏 Acknowledgements
-Thanks to Nabajeet Barman for providing the high-resolution gaming videos, available at:
-🔗 github.com/NabajeetBarman/GamingHDRVideoSET
+Thanks to Nabajeet Barman for providing the high-resolution gaming videos, available at: github.com/NabajeetBarman/GamingHDRVideoSET
 
-Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, available at:
-🔗 github.com/stuartclayman/h264_over_bpp
+Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, available at: github.com/stuartclayman/h264_over_bpp
 
 
     

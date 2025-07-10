@@ -59,5 +59,7 @@ Thanks to Nabajeet Barman for providing the high-resolution gaming videos, avail
 
 Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, available at: github.com/stuartclayman/h264_over_bpp
 
+This study was funded by PEPR Network of Future, subproject Networks Architectures & In frastructure.
+
 
     

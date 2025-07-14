@@ -36,7 +36,6 @@ Alternatively, you can use the standalone VMAF tool from Netflix:
 
 This project uses the Packet Wash implementation developed by Stuart Clayman.
 
-    Repository:
     🔗 https://github.com/stuartclayman/h264_over_bpp/
 
 ## 🔧 Additional Utilities

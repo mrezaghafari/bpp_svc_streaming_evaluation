@@ -49,6 +49,22 @@ If you want to lower the framerate which might be needed, you can use ffmpeg as 
 
     ffmpeg -s [width]x[height] -pix_fmt yuv420p -framerate 60 -i [location]/[file_high_fps].yuv -vf "select='not(mod(n\,2))'" -fps_mode passthrough -f rawvideo [location]/[file_low_fps].yuv
 
+## 📊 Quality Assessment
+
+To evaluate the visual quality impact of the Packet Wash technique, this repository supports three standard metrics:
+
+-PSNR
+
+    ffmpeg -s [width]x[height] -i location]/[file_high_fps].yuv -s [width]x[height] -i [location]/[file_low_fps].yuv -lavfi "psnr" -f null -
+
+-SSIM
+
+    ffmpeg -s [width]x[height] -i location]/[file_high_fps].yuv -s [width]x[height] -i [location]/[file_low_fps].yuv -lavfi "ssim" -f null -
+
+-VMAF
+
+    vmaf --reference [location]/[file_high_fps].yuv --distorted [location]/[file_low_fps].yuv --width [width] --height [height] --bitdepth 8 --pixel_format 420 --model "path=[vmaf_location]/vmaf-3.0.0/model/vmaf_4k_v0.6.1.json" --threads 12 --output [location]/*.csv --csv --frame_cnt 300 --quiet
+
 ## 📁 Folder Overview
 
 - 📁 [`confs`](./confs): Contains configuration files used for Scalable Video Coding (SVC).

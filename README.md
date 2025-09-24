@@ -77,7 +77,7 @@ To evaluate the visual quality impact of the Packet Wash technique, this reposit
 ## 🙏 Acknowledgements
 Thanks to Nabajeet Barman for providing the high-resolution gaming videos, available at: ```github.com/NabajeetBarman/GamingHDRVideoSET``` and ```N. Barman , M. G. Martini, ``User Generated HDR Gaming Video Streaming: Dataset, Codec Comparison, and Challenges,,'' in IEEE Transactions on Circuits and Systems for Video Technology, vol. 32, no. 3, pp. 1236-1249, March 2022, doi: 10.1109/TCSVT.2021.3077384.```
 
-Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, available at: ```github.com/stuartclayman/h264_over_bpp```
+Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, available at: ```github.com/stuartclayman/h264_over_bpp``` and ```S. Clayman and M. Sayıt, ``Low Latency Low Loss Media Delivery Utilizing In-network Packet Wash,'' J. Netw. Syst. Manage., vol. 31, no. 1, Jan. 2023, pp. 1--31, doi: 10.1007/s10922-022-09712-1.```
 
 This study was funded by ```PEPR Network of Future```, subproject Networks Architectures & In frastructure.
 

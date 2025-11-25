@@ -81,5 +81,13 @@ Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, avail
 
 This study was funded by ```PEPR Network of Future```, subproject Networks Architectures & In frastructure.
 
+## 📖 Cite Our Work
+If you find this repository or our paper useful, please cite it using:
+
+GitHub repository: [`https://github.com/mrezaghafari/bpp_svc_streaming_evaluation`](https://github.com/mrezaghafari/bpp_svc_streaming_evaluation)
+
+Paper at SIGCOMM EMS'25:  
+
+> M. Ghafari, T. Cholez, O. Festor, "Evaluation of Packet Wash for Low-Latency High-Bitrate Game Streaming," *Proceedings of the Workshop on Emerging Multimedia Systems*, Coimbra, Portugal, Sep. 2025, doi: [10.1145/3746441.3748228](https://doi.org/10.1145/3746441.3748228).
 
     

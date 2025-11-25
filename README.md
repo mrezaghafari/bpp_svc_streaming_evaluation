@@ -82,7 +82,7 @@ Thanks to Nabajeet Barman for providing the high-resolution gaming videos, avail
 
 Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, available at: ```github.com/stuartclayman/h264_over_bpp``` and ```S. Clayman and M. Sayıt, ``Low Latency Low Loss Media Delivery Utilizing In-network Packet Wash,'' J. Netw. Syst. Manage., vol. 31, no. 1, Jan. 2023, pp. 1--31, doi: 10.1007/s10922-022-09712-1.```
 
-This study was funded by ```PEPR Network of Future```, subproject Networks Architectures & In frastructure.
+This study was funded by ``French ANR PEPR NF-NAI project, No ANR-22-PEFT-0003``.
 
 ### 📖 Cite Our Work
 If you find this repository or our paper useful, please cite it using:

@@ -2,7 +2,7 @@
 
 ![packet wash in one go](pictures/packet_wash.png)
  
-This repository contains resources to evaluate the Packet Wash technique for scalable video streaming, especially in gaming scenarios, which has been accepted in SIGCOMM EMS'25:
+This repository contains resources to evaluate the BPP streaming with the packet wash mechanism, utilizing scalable video coding, especially in gaming scenarios, which has been accepted in SIGCOMM EMS'25:
 
 [`Evaluation of Packet Wash for Low-Latency High-Bitrate Game Streaming`](https://dl.acm.org/doi/abs/10.1145/3746441.3748228)
 

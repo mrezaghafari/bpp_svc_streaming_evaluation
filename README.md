@@ -2,8 +2,11 @@
 
 ![packet wash in one go](pictures/packet_wash.png)
  
-This repository contains resources to evaluate the Packet Wash technique for scalable video streaming, especially in gaming scenarios.
-Requirements
+This repository contains resources to evaluate the Packet Wash technique for scalable video streaming, especially in gaming scenarios, which has been accepted in SIGCOMM EMS'25:
+
+[`Evaluation of Packet Wash for Low-Latency High-Bitrate Game Streaming`](https://dl.acm.org/doi/abs/10.1145/3746441.3748228)
+
+### Requirements:
 
 To use this repository, please ensure the following dependencies are installed:
 ### 1. 🧩 JSVM (H264 Reference Software)
@@ -38,7 +41,7 @@ This project uses the Packet Wash implementation developed by Stuart Clayman.
 
     🔗 https://github.com/stuartclayman/h264_over_bpp/
 
-## 🔧 Additional Utilities
+### 🔧 Additional Utilities
 
 If you need to downscale the video for any reason, you can may want to use `./DownConvertStatic` provided in JSVM, but this is only one way of doing it.
 
@@ -48,7 +51,7 @@ If you want to lower the framerate which might be needed, you can use ffmpeg as 
 
     ffmpeg -s [width]x[height] -pix_fmt yuv420p -framerate 60 -i [location]/[file_high_fps].yuv -vf "select='not(mod(n\,2))'" -fps_mode passthrough -f rawvideo [location]/[file_low_fps].yuv
 
-## 📊 Quality Assessment
+### 📊 Quality Assessment
 
 To evaluate the visual quality impact of the Packet Wash technique, this repository supports three standard metrics:
 
@@ -69,7 +72,7 @@ To evaluate the visual quality impact of the Packet Wash technique, this reposit
     python subjective_evaluation.py [location]/[noWash].yuv [location]/[Washed_QL1].yuv [location]/[Washed_QL2].yuv [width] [height] 300
 
 
-## 📁 Folder Overview
+### 📁 Folder Overview
 
 - 📁 [`confs`](./confs): Contains configuration files used for Scalable Video Coding (SVC).
 - 📁 [`results`](./results): Includes the results before and after applying the Packet Wash technique.
@@ -81,7 +84,7 @@ Thanks to Stuart Clayman for the BPP (Big Packet Protocol) implementation, avail
 
 This study was funded by ```PEPR Network of Future```, subproject Networks Architectures & In frastructure.
 
-## 📖 Cite Our Work
+### 📖 Cite Our Work
 If you find this repository or our paper useful, please cite it using:
 
 GitHub repository: [`https://github.com/mrezaghafari/bpp_svc_streaming_evaluation`](https://github.com/mrezaghafari/bpp_svc_streaming_evaluation)
